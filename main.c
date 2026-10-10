@@ -20,7 +20,7 @@
 #define INSTRUCTION_START '['
 #define INSTRUCTION_END ']'
 
-# define MEMGROWTH 2
+#define MEMGROWTH 2
 
 int
 main(int argc, char** argv)
