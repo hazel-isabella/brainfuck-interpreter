@@ -5,8 +5,8 @@ all: brainfuck
 
 .PHONY: clean
 
-brainfuck: main.c
-	cc main.c -o brainfuck
+brainfuck: main.c # stack.o
+	$(CC) $(CFLAGS) $^ -o $@
 
 clean:
 	rm -f solver *.o
